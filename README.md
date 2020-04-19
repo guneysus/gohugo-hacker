@@ -2,8 +2,6 @@ Hacker
 
 [Live Demo](https://guneysus.gohugo.io/gohugo-hacker)
 
-![Hacker theme screenshot](https://github.com/guneysus/gohugo-hacker/blob/master/images/splash.png)
-
 ## Installation
 
 In your Hugo site `themes` directory, run:

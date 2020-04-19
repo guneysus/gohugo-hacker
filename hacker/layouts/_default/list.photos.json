@@ -1,9 +1,0 @@
-{{/* Generates a valid Algolia search index */}}
-{{- $.Scratch.Add "index" slice -}}
-{{- $section := $.Site.GetPage "section" .Section }}
-{{- range (where .Site.AllPages "Type" "photos") (where .Site.AllPages "kind" "page") .Site.AllPages -}}
-  {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
-    {{- $.Scratch.Add "index" (dict "objectID" .UniqueID "date" .Date.UTC.Unix "kind" .Kind "permalink" .Permalink "publishdate" .PublishDate "summary" .Summary "title" .Title "type" .Type "url" .URL "section" .Section "tags" .Params.Tags "categories" .Params.Categories )}}
-  {{- end -}}
-{{- end -}}
-{{- $.Scratch.Get "index" | jsonify -}}

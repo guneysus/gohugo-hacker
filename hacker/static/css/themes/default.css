@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Oxygen+Mono&display=swap&subset=latin-ext");
 /* Background */
-@import "/css/tachyons.css";
-@import "/css/tachyons.css";
 .chroma {
   background-color: #ffffff;
 }
@@ -268,6 +266,7 @@ article h1 a {
   line-height: 1.2em;
 }
 article h1 a:hover, article h1 a:focus {
+  cursor: pointer;
   opacity: 0.5;
   transition: opacity 0.15s ease-in;
 }
@@ -426,9 +425,9 @@ pre code {
 }
 
 .theme-switcher button {
-  margin: 0.25em;
+  margin: 10px;
   border: 2px solid gray;
-  padding: 10px;
+  padding: 1em;
   border-radius: 1em;
   box-shadow: 0.25em 0.25em 0 gray;
   top: 3px;
@@ -438,7 +437,7 @@ pre code {
   top: 3px;
 }
 .theme-switcher button:hover {
-  color: black;
+  cursor: pointer;
   top: 3px;
 }
 
@@ -709,6 +708,7 @@ article h1 a {
   line-height: 1.2em;
 }
 article h1 a:hover, article h1 a:focus {
+  cursor: pointer;
   opacity: 0.5;
   transition: opacity 0.15s ease-in;
 }
@@ -867,9 +867,9 @@ pre code {
 }
 
 .theme-switcher button {
-  margin: 0.25em;
+  margin: 10px;
   border: 2px solid gray;
-  padding: 10px;
+  padding: 1em;
   border-radius: 1em;
   box-shadow: 0.25em 0.25em 0 gray;
   top: 3px;
@@ -879,7 +879,7 @@ pre code {
   top: 3px;
 }
 .theme-switcher button:hover {
-  color: black;
+  cursor: pointer;
   top: 3px;
 }
 
