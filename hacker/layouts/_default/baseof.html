@@ -12,26 +12,9 @@
 	{{ $layout := resources.Get "css/layout.scss" | toCSS | minify | fingerprint }}
 	<link rel="stylesheet" href="{{ $layout.Permalink }}" id="layoutCss">
 
-	
-	<!-- {{ $style := resources.Get "css/themes/monochrome-light.scss" | toCSS | minify | fingerprint }}
-	{{ $style := resources.Get "css/themes/monochrome-dark.scss" | toCSS | minify | fingerprint }}
-	{{ $style := resources.Get "css/themes/alexpate-2.scss" | toCSS | minify | fingerprint }}
-	{{ $style := resources.Get "css/themes/alexpate-3.scss" | toCSS | minify | fingerprint }}
-	{{ $style := resources.Get "css/themes/alexpate-15.scss" | toCSS | minify | fingerprint }}
-	{{ $style := resources.Get "css/themes/alexpate-20.scss" | toCSS | minify | fingerprint }}
-	{{ $style := resources.Get "css/themes/alexpate-26.scss" | toCSS | minify | fingerprint }}
-	{{ $style := resources.Get "css/themes/alexpate-31.scss" | toCSS | minify | fingerprint }}
-	{{ $style := resources.Get "css/themes/alexpate-34.scss" | toCSS | minify | fingerprint }}
-	{{ $style := resources.Get "css/themes/alexpate-42.scss" | toCSS | minify | fingerprint }}
-	{{ $style := resources.Get "css/themes/alexpate-54.scss" | toCSS | minify | fingerprint }}
-	{{ $style := resources.Get "css/themes/alexpate-65.scss" | toCSS | minify | fingerprint }}
-	{{ $style := resources.Get "css/themes/alexpate-72.scss" | toCSS | minify | fingerprint }}
-	{{ $style := resources.Get "css/themes/alexpate-91.scss" | toCSS | minify | fingerprint }}
-	{{ $style := resources.Get "css/themes/alexpate-96.scss" | toCSS | minify | fingerprint }} -->
-
-
-	{{ $themeName := print "css/themes/" $.Site.Params.colorScheme ".scss" }}
-	{{ $style := resources.Get $themeName | toCSS | minify | fingerprint }}
+	{{ $colorScheme:= $.Site.Params.colorScheme | default "default" }}
+	{{ $themePath := print "css/themes/" $colorScheme ".scss" }}
+	{{ $style := resources.Get $themePath | toCSS | minify | fingerprint }}
 
 	<link rel="stylesheet" href="{{ $style.Permalink }}" id="themeCss">
 
