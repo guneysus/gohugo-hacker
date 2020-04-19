@@ -1,0 +1,515 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen+Mono&display=swap&subset=latin-ext");
+/* Background */
+.chroma {
+  color: #e5e5e5;
+  background-color: #000000;
+}
+
+/* Error */
+.chroma .err {
+  color: #ff0000;
+}
+
+/* LineTableTD */
+.chroma .lntd {
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* LineTable */
+.chroma .lntable {
+  border-spacing: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: auto;
+  overflow: auto;
+  display: block;
+}
+
+/* LineHighlight */
+.chroma .hl {
+  display: block;
+  width: 100%;
+  background-color: #ffffcc;
+}
+
+/* LineNumbersTable */
+.chroma .lnt {
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+  color: #727272;
+}
+
+/* LineNumbers */
+.chroma .ln {
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+  color: #727272;
+}
+
+/* Keyword */
+.chroma .k {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* KeywordConstant */
+.chroma .kc {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* KeywordDeclaration */
+.chroma .kd {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* KeywordNamespace */
+.chroma .kn {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* KeywordPseudo */
+.chroma .kp {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* KeywordReserved */
+.chroma .kr {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* KeywordType */
+.chroma .kt {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* NameAttribute */
+.chroma .na {
+  color: #007f7f;
+}
+
+/* NameBuiltin */
+.chroma .nb {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* NameTag */
+.chroma .nt {
+  font-weight: bold;
+}
+
+/* LiteralDate */
+.chroma .ld {
+  color: #ffff00;
+  font-weight: bold;
+}
+
+/* LiteralString */
+.chroma .s {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* LiteralStringAffix */
+.chroma .sa {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* LiteralStringBacktick */
+.chroma .sb {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* LiteralStringChar */
+.chroma .sc {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* LiteralStringDelimiter */
+.chroma .dl {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* LiteralStringDoc */
+.chroma .sd {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* LiteralStringDouble */
+.chroma .s2 {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* LiteralStringEscape */
+.chroma .se {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* LiteralStringHeredoc */
+.chroma .sh {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* LiteralStringInterpol */
+.chroma .si {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* LiteralStringOther */
+.chroma .sx {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* LiteralStringRegex */
+.chroma .sr {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* LiteralStringSingle */
+.chroma .s1 {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* LiteralStringSymbol */
+.chroma .ss {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* LiteralNumber */
+.chroma .m {
+  color: #ffff00;
+  font-weight: bold;
+}
+
+/* LiteralNumberBin */
+.chroma .mb {
+  color: #ffff00;
+  font-weight: bold;
+}
+
+/* LiteralNumberFloat */
+.chroma .mf {
+  color: #ffff00;
+  font-weight: bold;
+}
+
+/* LiteralNumberHex */
+.chroma .mh {
+  color: #ffff00;
+  font-weight: bold;
+}
+
+/* LiteralNumberInteger */
+.chroma .mi {
+  color: #ffff00;
+  font-weight: bold;
+}
+
+/* LiteralNumberIntegerLong */
+.chroma .il {
+  color: #ffff00;
+  font-weight: bold;
+}
+
+/* LiteralNumberOct */
+.chroma .mo {
+  color: #ffff00;
+  font-weight: bold;
+}
+
+/* Comment */
+.chroma .c {
+  color: #007f7f;
+}
+
+/* CommentHashbang */
+.chroma .ch {
+  color: #007f7f;
+}
+
+/* CommentMultiline */
+.chroma .cm {
+  color: #007f7f;
+}
+
+/* CommentSingle */
+.chroma .c1 {
+  color: #007f7f;
+}
+
+/* CommentSpecial */
+.chroma .cs {
+  color: #007f7f;
+}
+
+/* CommentPreproc */
+.chroma .cp {
+  color: #00ff00;
+  font-weight: bold;
+}
+
+/* CommentPreprocFile */
+.chroma .cpf {
+  color: #00ff00;
+  font-weight: bold;
+}
+
+/* GenericHeading */
+.chroma .gh {
+  font-weight: bold;
+}
+
+/* GenericStrong */
+.chroma .gs {
+  font-weight: bold;
+}
+
+/* GenericSubheading */
+.chroma .gu {
+  font-weight: bold;
+}
+
+/* GenericUnderline */
+.chroma .gl {
+  text-decoration: underline;
+}
+
+body {
+  width: 60%;
+  overflow-x: hidden;
+  margin: 1em auto;
+  font-family: "Oxygen Mono", monospace;
+  background-color: #126d71;
+  color: #ecedf2;
+}
+
+header {
+  font-size: x-large;
+}
+
+article {
+  background-color: #168287;
+  margin: 1.5rem 0;
+  padding: 1rem 2rem;
+}
+article p {
+  line-height: 1.75em;
+  text-align: justify;
+  text-indent: 2em;
+  color: white;
+}
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  text-indent: 2rem;
+}
+article h1 {
+  margin: 0.5rem 0;
+}
+article h1 a {
+  color: #ECEDF2;
+  text-decoration: none;
+  line-height: 1.2em;
+}
+article h1 a:hover, article h1 a:focus {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+}
+article h1 a:active {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-out;
+}
+article .summary {
+  margin: 0.5rem 0;
+}
+article time {
+  margin: 0.5rem 0;
+}
+
+.pages {
+  min-width: 100%;
+  font-size: large;
+  padding: 2em 0;
+}
+.pages a {
+  color: #ECEDF2;
+  text-decoration: none;
+  padding: 1em 0;
+}
+.pages a:hover, .pages a:focus {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+}
+.pages a:active {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-out;
+}
+
+.tags a.tag {
+  color: #ced0dd;
+  text-decoration: none;
+  font-weight: bold;
+}
+.tags a.tag:hover, .tags a.tag:focus {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+}
+.tags a.tag:active {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-out;
+}
+
+.latest-posts h3 {
+  margin: 1em 0.5em 1em 0.5em;
+  border-bottom: 1px dotted white;
+}
+.latest-posts ul {
+  margin: 0;
+  padding: 0 0 0 0.5em;
+}
+.latest-posts ul li {
+  list-style: none;
+  line-height: 1.6em;
+}
+.latest-posts ul a {
+  color: #ecedf2;
+  text-decoration: none;
+  font-weight: bold;
+}
+.latest-posts ul a:hover, .latest-posts ul a:focus {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+}
+.latest-posts ul a:active {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-out;
+}
+
+a {
+  color: #fbfbfc;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover, a:focus {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+}
+a:active {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-out;
+}
+
+header a,
+footer p a {
+  color: #ecedf2;
+  text-decoration: none;
+  font-weight: bold;
+}
+header a:hover, header a:focus,
+footer p a:hover,
+footer p a:focus {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+}
+header a:active,
+footer p a:active {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-out;
+}
+
+table {
+  width: 100%;
+  overflow-x: auto;
+}
+table th,
+table td {
+  padding: 1em;
+  border-bottom: 1px solid #ECEDF2;
+}
+table tbody {
+  vertical-align: inherit;
+}
+table thead th {
+  vertical-align: bottom;
+  border-bottom-color: #ECEDF2;
+}
+table tbody + tbody {
+  border-top: 2px solid #ECEDF2;
+}
+table th,
+table td {
+  border: 1px solid #ECEDF2;
+}
+table thead th,
+table thead td {
+  border-bottom-width: 2px;
+}
+table tbody tr:nth-of-type(odd) {
+  background-color: rgba(236, 237, 242, 0.075);
+}
+table tbody tr:hover {
+  color: #ECEDF2;
+  background-color: rgba(236, 237, 242, 0.075);
+}
+
+.highlight {
+  outline: 1px solid #041819;
+}
+.highlight pre {
+  font-family: "Oxygen Mono", monospace;
+  padding: 1em;
+}
+.highlight pre code {
+  white-space: pre-wrap;
+  font-family: "Oxygen Mono", monospace;
+  font-size: 85%;
+}
+
+pre code {
+  white-space: pre-wrap;
+}
+
+.theme-switcher button {
+  margin: 10px;
+  border: 2px solid gray;
+  padding: 1em;
+  border-radius: 1em;
+  box-shadow: 0.25em 0.25em 0 gray;
+  top: 3px;
+}
+.theme-switcher button:active {
+  box-shadow: 0px 0px 0 gray;
+  top: 3px;
+}
+.theme-switcher button:hover {
+  cursor: pointer;
+  top: 3px;
+}
+
+/*# sourceMappingURL=alexpate-2.css.map */
