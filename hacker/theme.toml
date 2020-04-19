@@ -1,0 +1,12 @@
+name = "hacker"
+license = "MIT"
+licenselink = "https://github.com/vimux/blank/blob/master/LICENSE"
+description = "19 different color pairs with good contrast"
+homepage = "https://github.com/vimux/blank/"
+tags = ["blog", "plain", "monochromatic", "colour schemes" ]
+features = ["blog"]
+min_version = "0.55"
+
+[author]
+  name = "guneysus"
+  homepage = "https://github.com/guneysus"

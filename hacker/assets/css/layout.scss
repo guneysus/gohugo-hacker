@@ -1,0 +1,127 @@
+@mixin themeSwitcherButton($fg, $bg) {
+    background-color: darken($color: $bg, $amount: 5);
+    color: darken($color: $fg, $amount: 5);
+
+    
+    &:hover {
+        background-color:darken($color: $bg, $amount: 0);
+        color: lighten($color: $fg, $amount: 0);
+        top: 3px;
+    }
+
+    &:active {
+        box-shadow: 0px 0px 0 gray;
+        // color: black;
+        color: lighten($color: $fg, $amount: 0);
+        top: 3px;
+      }    
+}
+
+button.alexpate-15 {
+    $fg: #e4d7bc;
+    $bg: #2a563f;
+
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.alexpate-2 {
+    $fg: #ecedf2;
+    $bg: #126d71;
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.alexpate-20 {
+    $fg: #1bfaad;
+    $bg: #1c234a;
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.alexpate-26 {
+    $fg: #44388d;
+    $bg: #b2d7c8;
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.alexpate-3 {
+    $fg: #3a97d4;
+    $bg: #1a2037;
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.alexpate-31 {
+    $fg: #86c252;
+    $bg: #212339;
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.alexpate-34 {
+    $fg: #f6a56e;
+    $bg: #022d30;
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.alexpate-42 {
+    $fg: #b4d2ee;
+    $bg: #526273;
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.alexpate-54 {
+    $fg: #0d1432;
+    $bg: #e0e2e9;
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.alexpate-65 {
+    $fg: #428184;
+    $bg: #f8deda;
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.alexpate-72 {
+    $fg: #f04c31;
+    $bg: #194341;
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.alexpate-91 {
+    $fg: #07f7ee;
+    $bg: #01020b;
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.alexpate-96 {
+    $fg: #dd4244;
+    $bg: #2d2e49;
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.default {
+    $fg: #101010;
+    $bg: #f0f0f0;
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.monochrome-dark {
+    $fg: #f0f0f0;
+    $bg: #101010;
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.monochrome-light {
+    $fg: #101010;
+    $bg: #f0f0f0;
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.ubuntu {
+    $fg: #aea79f;
+    $bg: #2c001e;
+    @include themeSwitcherButton($fg, $bg);
+}
+
+button.xterm {
+    $fg: limegreen;
+    $bg: black;
+    @include themeSwitcherButton($fg, $bg);
+}

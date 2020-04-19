@@ -1,0 +1,12 @@
+$foreground-color: #44388d;
+$background-color: #b2d7c8;
+
+$font: "Oxygen Mono", monospace;
+
+$dark: false;
+
+@import url("https://fonts.googleapis.com/css?family=Oxygen+Mono&display=swap&subset=latin-ext");
+
+@import "../chroma/solarized-light.scss";
+
+@import "_base.scss";

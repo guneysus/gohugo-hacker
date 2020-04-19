@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen+Mono&display=swap&subset=latin-ext");
+/* Background */
+@import "/css/tachyons.css";
+.chroma {
+  background-color: #ffffff;
+}
+
+/* Error */
+/* LineTableTD */
+.chroma .lntd {
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* LineTable */
+.chroma .lntable {
+  border-spacing: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: auto;
+  overflow: auto;
+  display: block;
+}
+
+/* LineHighlight */
+.chroma .hl {
+  display: block;
+  width: 100%;
+  background-color: #ffffcc;
+}
+
+/* LineNumbersTable */
+.chroma .lnt {
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+  color: #7f7f7f;
+}
+
+/* LineNumbers */
+.chroma .ln {
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+  color: #7f7f7f;
+}
+
+/* Keyword */
+.chroma .k {
+  font-weight: bold;
+}
+
+/* KeywordConstant */
+.chroma .kc {
+  font-weight: bold;
+}
+
+/* KeywordDeclaration */
+.chroma .kd {
+  font-weight: bold;
+}
+
+/* KeywordNamespace */
+.chroma .kn {
+  font-weight: bold;
+}
+
+/* KeywordPseudo */
+/* KeywordReserved */
+.chroma .kr {
+  font-weight: bold;
+}
+
+/* KeywordType */
+/* NameClass */
+.chroma .nc {
+  font-weight: bold;
+}
+
+/* NameEntity */
+.chroma .ni {
+  font-weight: bold;
+}
+
+/* NameException */
+.chroma .ne {
+  font-weight: bold;
+}
+
+/* NameNamespace */
+.chroma .nn {
+  font-weight: bold;
+}
+
+/* NameTag */
+.chroma .nt {
+  font-weight: bold;
+}
+
+/* LiteralString */
+.chroma .s {
+  font-style: italic;
+}
+
+/* LiteralStringAffix */
+.chroma .sa {
+  font-style: italic;
+}
+
+/* LiteralStringBacktick */
+.chroma .sb {
+  font-style: italic;
+}
+
+/* LiteralStringChar */
+.chroma .sc {
+  font-style: italic;
+}
+
+/* LiteralStringDelimiter */
+.chroma .dl {
+  font-style: italic;
+}
+
+/* LiteralStringDoc */
+.chroma .sd {
+  font-style: italic;
+}
+
+/* LiteralStringDouble */
+.chroma .s2 {
+  font-style: italic;
+}
+
+/* LiteralStringEscape */
+.chroma .se {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* LiteralStringHeredoc */
+.chroma .sh {
+  font-style: italic;
+}
+
+/* LiteralStringInterpol */
+.chroma .si {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* LiteralStringOther */
+.chroma .sx {
+  font-style: italic;
+}
+
+/* LiteralStringRegex */
+.chroma .sr {
+  font-style: italic;
+}
+
+/* LiteralStringSingle */
+.chroma .s1 {
+  font-style: italic;
+}
+
+/* LiteralStringSymbol */
+.chroma .ss {
+  font-style: italic;
+}
+
+/* OperatorWord */
+.chroma .ow {
+  font-weight: bold;
+}
+
+/* Comment */
+.chroma .c {
+  font-style: italic;
+}
+
+/* CommentHashbang */
+.chroma .ch {
+  font-style: italic;
+}
+
+/* CommentMultiline */
+.chroma .cm {
+  font-style: italic;
+}
+
+/* CommentSingle */
+.chroma .c1 {
+  font-style: italic;
+}
+
+/* CommentSpecial */
+.chroma .cs {
+  font-style: italic;
+}
+
+/* CommentPreproc */
+/* CommentPreprocFile */
+/* GenericEmph */
+.chroma .ge {
+  font-style: italic;
+}
+
+/* GenericHeading */
+.chroma .gh {
+  font-weight: bold;
+}
+
+/* GenericPrompt */
+.chroma .gp {
+  font-weight: bold;
+}
+
+/* GenericStrong */
+.chroma .gs {
+  font-weight: bold;
+}
+
+/* GenericSubheading */
+.chroma .gu {
+  font-weight: bold;
+}
+
+body {
+  width: 60%;
+  overflow-x: hidden;
+  margin: 1em auto;
+  font-family: "Oxygen Mono", monospace;
+  background-color: #f0f0f0;
+  color: #101010;
+}
+
+header {
+  font-size: x-large;
+}
+
+article {
+  background-color: #fdfdfd;
+  margin: 1.5rem 0;
+  padding: 1rem 2rem;
+}
+article p {
+  line-height: 1.75em;
+  text-align: justify;
+  text-indent: 2em;
+  color: #2a2a2a;
+}
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  text-indent: 2rem;
+}
+article h1 {
+  margin: 0.5rem 0;
+}
+article h1 a {
+  color: #101010;
+  text-decoration: none;
+  line-height: 1.2em;
+}
+article h1 a:hover, article h1 a:focus {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+}
+article h1 a:active {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-out;
+}
+article .summary {
+  margin: 0.5rem 0;
+}
+article time {
+  margin: 0.5rem 0;
+}
+
+.pages {
+  min-width: 100%;
+  font-size: large;
+  padding: 2em 0;
+}
+.pages a {
+  color: #101010;
+  text-decoration: none;
+  padding: 1em 0;
+}
+.pages a:hover, .pages a:focus {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+}
+.pages a:active {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-out;
+}
+
+.tags a.tag {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.tags a.tag:hover, .tags a.tag:focus {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+}
+.tags a.tag:active {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-out;
+}
+
+.latest-posts h3 {
+  margin: 1em 0.5em 1em 0.5em;
+  border-bottom: 1px dotted #909090;
+}
+.latest-posts ul {
+  margin: 0;
+  padding: 0 0 0 0.5em;
+}
+.latest-posts ul li {
+  list-style: none;
+  line-height: 1.6em;
+}
+.latest-posts ul a {
+  color: #101010;
+  text-decoration: none;
+  font-weight: bold;
+}
+.latest-posts ul a:hover, .latest-posts ul a:focus {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+}
+.latest-posts ul a:active {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-out;
+}
+
+a {
+  color: #1d1d1d;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover, a:focus {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+}
+a:active {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-out;
+}
+
+header a,
+footer p a {
+  color: #101010;
+  text-decoration: none;
+  font-weight: bold;
+}
+header a:hover, header a:focus,
+footer p a:hover,
+footer p a:focus {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+}
+header a:active,
+footer p a:active {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-out;
+}
+
+table {
+  width: 100%;
+  overflow-x: auto;
+}
+table th,
+table td {
+  padding: 1em;
+  border-bottom: 1px solid #101010;
+}
+table tbody {
+  vertical-align: inherit;
+}
+table thead th {
+  vertical-align: bottom;
+  border-bottom-color: #101010;
+}
+table tbody + tbody {
+  border-top: 2px solid #101010;
+}
+table th,
+table td {
+  border: 1px solid #101010;
+}
+table thead th,
+table thead td {
+  border-bottom-width: 2px;
+}
+table tbody tr:nth-of-type(odd) {
+  background-color: rgba(16, 16, 16, 0.075);
+}
+table tbody tr:hover {
+  color: #101010;
+  background-color: rgba(16, 16, 16, 0.075);
+}
+
+.highlight {
+  outline: 1px solid #bdbdbd;
+}
+.highlight pre {
+  font-family: "Oxygen Mono", monospace;
+  padding: 1em;
+}
+.highlight pre code {
+  white-space: pre-wrap;
+  font-family: "Oxygen Mono", monospace;
+  font-size: 85%;
+}
+
+pre code {
+  white-space: pre-wrap;
+}
+
+.theme-switcher button {
+  margin: 0.25em;
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 1em;
+  box-shadow: 0.25em 0.25em 0 gray;
+  top: 3px;
+}
+.theme-switcher button:active {
+  box-shadow: 0px 0px 0 gray;
+  top: 3px;
+}
+.theme-switcher button:hover {
+  color: black;
+  top: 3px;
+}
+
+/*# sourceMappingURL=monochrome-light.css.map */

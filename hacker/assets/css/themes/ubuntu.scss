@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i,700,700i&display=swap&subset=latin-ext');
+$font: 'Ubuntu Mono', monospace;
+
+$dark: true;
+$foreground-color: #AEA79F;
+$background-color: #2C001E;
+
+@import url("https://fonts.googleapis.com/css?family=Oxygen+Mono&display=swap&subset=latin-ext");
+
+@import "../chroma/solarized-light.scss";
+
+@import "_base.scss";

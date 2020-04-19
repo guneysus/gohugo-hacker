@@ -1,0 +1,95 @@
+@mixin debug($color: red, $nobg: false) {
+    outline: 1px solid transparentize($color: $color, $amount: 0.7);
+
+    @if $nobg {
+    } @else {
+        background-color: rgba($color: $color, $alpha: 0.05);
+    }
+}
+
+body {
+    @include debug(red, true);
+}
+
+header {
+    @include debug(yellow);
+}
+
+nav {
+    @include debug(orange);
+}
+
+main {
+    @include debug(green);
+}
+
+article {
+    @include debug(turquoise);
+
+    time {
+        @include debug(magenta);
+    }
+    
+}
+
+aside {
+    @include debug(steelblue);
+}
+
+.pages {
+    @include debug(rgb(44, 247, 135));
+
+}
+
+article {
+    p {
+        @include debug(rgb(247, 44, 162));
+    }
+
+    table {
+        @include debug(yellowgreen);
+    }
+
+    h1 {
+        a {
+            @include debug(violet);
+            text-decoration: none;
+
+            &:hover, &:focus {
+                opacity: .5;
+                transition: opacity .15s ease-in;
+            }
+            
+            &:active {
+                opacity: .8;
+                transition: opacity .15s ease-out;
+            }              
+        }
+    }
+}
+
+.summary {
+    @include debug(red);
+}
+
+.tags {
+    @include debug(orange);
+}
+
+.latest-posts {
+    h3 {
+        @include debug(red);
+    }
+
+    @include debug(limegreen);
+    ul {
+        @include debug(limegreen);
+        li {
+            @include debug(lime);
+        }
+    }
+}
+
+body {
+    @include debug(red);
+}
