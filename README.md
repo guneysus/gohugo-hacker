@@ -1,6 +1,6 @@
-Hacker
+# Hacker
 
-[Live Demo](https://guneysus.gohugo.io/gohugo-hacker)
+[Live Demo](https://guneysus.github.io/gohugo-hacker/)
 
 ## Installation
 
