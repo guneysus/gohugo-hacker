@@ -1,6 +1,6 @@
 Hacker
 
-[Live Demo](https://guneysus.gohugo.io/gohugo-hacker)
+[Live Demo](https://guneysus.github.io/gohugo-hacker/)
 
 ![Hacker theme screenshot](https://github.com/guneysus/gohugo-hacker/blob/master/images/splash.png)
 
