@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Markdown Syntax Guide</title>
+	
+	
+	
+
+	
+	<link rel="stylesheet" href="https://guneysus.github.io/gohugo-hacker/css/layout.min.3e2518c3a432c0fde3a2974dc28bc53ad9ebf8af7aa3572ffb326054c46cdacf.css" id="layoutCss">
+
+	
+	
+	
+
+	<link rel="stylesheet" href="https://guneysus.github.io/gohugo-hacker/css/themes/alexpate-96.min.3099f3a779a3292483fc56c974bed06a897229ae3bcd8bb56e16c788aa7dc5d0.css" id="themeCss">
+
+	
+</head>
+<body>
+	<script>
+    var switchTheme = function (theme) {
+        document.getElementById('themeCss').href = `css/themes/${theme}.css?${+new Date()}`;
+    }
+</script>
+<div class="theme-switcher">
+    <button class="alexpate-15" class="alexpate-15" onclick='switchTheme("alexpate-15")'>alexpate-15</button>
+    <button class="alexpate-2" onclick='switchTheme("alexpate-2")'>alexpate-2</button>
+    <button class="alexpate-20" onclick='switchTheme("alexpate-20")'>alexpate-20</button>
+    <button class="alexpate-26" onclick='switchTheme("alexpate-26")'>alexpate-26</button>
+    <button class="alexpate-3" onclick='switchTheme("alexpate-3")'>alexpate-3</button>
+    <button class="alexpate-31" onclick='switchTheme("alexpate-31")'>alexpate-31</button>
+    <button class="alexpate-34" onclick='switchTheme("alexpate-34")'>alexpate-34</button>
+    <button class="alexpate-42" onclick='switchTheme("alexpate-42")'>alexpate-42</button>
+    <button class="alexpate-54" onclick='switchTheme("alexpate-54")'>alexpate-54</button>
+    <button class="alexpate-65" onclick='switchTheme("alexpate-65")'>alexpate-65</button>
+    <button class="alexpate-72" onclick='switchTheme("alexpate-72")'>alexpate-72</button>
+    <button class="alexpate-91" onclick='switchTheme("alexpate-91")'>alexpate-91</button>
+    <button class="alexpate-96" onclick='switchTheme("alexpate-96")'>alexpate-96</button>
+    <button class="default" onclick='switchTheme("default")'>default</button>
+    <button class="monochrome-dark" onclick='switchTheme("monochrome-dark")'>monochrome-dark</button>
+    <button class="monochrome-light" onclick='switchTheme("monochrome-light")'>monochrome-light</button>
+    <button class="ubuntu" onclick='switchTheme("ubuntu")'>ubuntu</button>
+    <button class="xterm" onclick='switchTheme("xterm")'>xterm</button>
+</div>
+	
+	<main>
+		<article>
+			<h1>Markdown Syntax Guide</h1>
+			<time>11 March 2019 00:19 Monday</time>
+			<div>
+				<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
+
+<h2 id="headings">Headings</h2>
+
+<p>The following HTML <code>&lt;h1&gt;</code>—<code>&lt;h6&gt;</code> elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level while <code>&lt;h6&gt;</code> is the lowest.</p>
+
+<h1 id="h1">H1</h1>
+
+<h2 id="h2">H2</h2>
+
+<h3 id="h3">H3</h3>
+
+<h4 id="h4">H4</h4>
+
+<h5 id="h5">H5</h5>
+
+<h6 id="h6">H6</h6>
+
+<h2 id="paragraph">Paragraph</h2>
+
+<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p>
+
+<p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</p>
+
+<h2 id="blockquotes">Blockquotes</h2>
+
+<p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a <code>footer</code> or <code>cite</code> element, and optionally with in-line changes such as annotations and abbreviations.</p>
+
+<h4 id="blockquote-without-attribution">Blockquote without attribution</h4>
+
+<blockquote>
+<p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>
+</blockquote>
+
+<h4 id="blockquote-with-attribution">Blockquote with attribution</h4>
+
+<blockquote>
+<p>Don&rsquo;t communicate by sharing memory, share memory by communicating.</p>
+— <cite>Rob Pike<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></cite></p>
+</blockquote>
+
+<h2 id="tables">Tables</h2>
+
+<p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p>
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Bob</td>
+<td>27</td>
+</tr>
+
+<tr>
+<td>Alice</td>
+<td>23</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="inline-markdown-within-tables">Inline Markdown within tables</h4>
+
+<table>
+<thead>
+<tr>
+<th>Inline&nbsp;&nbsp;&nbsp;</th>
+<th>Markdown&nbsp;&nbsp;&nbsp;</th>
+<th>In&nbsp;&nbsp;&nbsp;</th>
+<th>Table</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><em>italics</em></td>
+<td><strong>bold</strong></td>
+<td><del>strikethrough</del>&nbsp;&nbsp;&nbsp;</td>
+<td><code>code</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="code-blocks">Code Blocks</h2>
+
+<h4 id="code-block-with-backticks">Code block with backticks</h4>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">html
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+  &lt;meta charset=&#34;UTF-8&#34;&gt;
+  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Test&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div>
+<h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces</h4>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+  &lt;meta charset=&#34;UTF-8&#34;&gt;
+  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Test&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div>
+<h4 id="code-block-with-hugo-s-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</h4>
+
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;UTF-8&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre></div>
+
+<h2 id="list-types">List Types</h2>
+
+<h4 id="ordered-list">Ordered List</h4>
+
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+
+<h4 id="unordered-list">Unordered List</h4>
+
+<ul>
+<li>List item</li>
+<li>Another item</li>
+<li>And another item</li>
+</ul>
+
+<h4 id="nested-list">Nested list</h4>
+
+<ul>
+<li>Item</li>
+<li>First Sub-item</li>
+<li>Second Sub-item</li>
+</ul>
+
+<h2 id="other-elements-abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark</h2>
+
+<p><abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.</p>
+
+<p>H<sub>2</sub>O</p>
+
+<p>X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>
+
+<p>Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.</p>
+
+<p>Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
+			</div>
+
+			<div class="tags">
+					
+					<a class="tag" href="/gohugo-hacker/tags/markdown">markdown</a>
+					
+					<a class="tag" href="/gohugo-hacker/tags/css">css</a>
+					
+					<a class="tag" href="/gohugo-hacker/tags/html">html</a>
+					
+					<a class="tag" href="/gohugo-hacker/tags/themes">themes</a>
+				
+			</div>
+
+			
+		</article>
+	</main>
+<aside>
+	<div class="latest-posts">
+    <h3>latest posts</h3>
+    <ul  >
+        
+        <li><a href="/gohugo-hacker/2020/04/sample/">sample</a></li>
+        
+        <li><a href="/gohugo-hacker/2019/03/markdown-syntax-guide/">Markdown Syntax Guide</a></li>
+        
+        <li><a href="/gohugo-hacker/2019/03/rich-content/">Rich Content</a></li>
+        
+        <li><a href="/gohugo-hacker/2019/03/placeholder-text/">Placeholder Text</a></li>
+        
+        <li><a href="/gohugo-hacker/2019/03/math-typesetting/">Math Typesetting</a></li>
+        
+    </ul>
+</div>
+</aside>
+
+
+	
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Emoji Support</title>
+	
+	
+	
+
+	
+	<link rel="stylesheet" href="https://guneysus.github.io/gohugo-hacker/css/layout.min.3e2518c3a432c0fde3a2974dc28bc53ad9ebf8af7aa3572ffb326054c46cdacf.css" id="layoutCss">
+
+	
+	
+	
+
+	<link rel="stylesheet" href="https://guneysus.github.io/gohugo-hacker/css/themes/alexpate-96.min.3099f3a779a3292483fc56c974bed06a897229ae3bcd8bb56e16c788aa7dc5d0.css" id="themeCss">
+
+	
+</head>
+<body>
+	<script>
+    var switchTheme = function (theme) {
+        document.getElementById('themeCss').href = `css/themes/${theme}.css?${+new Date()}`;
+    }
+</script>
+<div class="theme-switcher">
+    <button class="alexpate-15" class="alexpate-15" onclick='switchTheme("alexpate-15")'>alexpate-15</button>
+    <button class="alexpate-2" onclick='switchTheme("alexpate-2")'>alexpate-2</button>
+    <button class="alexpate-20" onclick='switchTheme("alexpate-20")'>alexpate-20</button>
+    <button class="alexpate-26" onclick='switchTheme("alexpate-26")'>alexpate-26</button>
+    <button class="alexpate-3" onclick='switchTheme("alexpate-3")'>alexpate-3</button>
+    <button class="alexpate-31" onclick='switchTheme("alexpate-31")'>alexpate-31</button>
+    <button class="alexpate-34" onclick='switchTheme("alexpate-34")'>alexpate-34</button>
+    <button class="alexpate-42" onclick='switchTheme("alexpate-42")'>alexpate-42</button>
+    <button class="alexpate-54" onclick='switchTheme("alexpate-54")'>alexpate-54</button>
+    <button class="alexpate-65" onclick='switchTheme("alexpate-65")'>alexpate-65</button>
+    <button class="alexpate-72" onclick='switchTheme("alexpate-72")'>alexpate-72</button>
+    <button class="alexpate-91" onclick='switchTheme("alexpate-91")'>alexpate-91</button>
+    <button class="alexpate-96" onclick='switchTheme("alexpate-96")'>alexpate-96</button>
+    <button class="default" onclick='switchTheme("default")'>default</button>
+    <button class="monochrome-dark" onclick='switchTheme("monochrome-dark")'>monochrome-dark</button>
+    <button class="monochrome-light" onclick='switchTheme("monochrome-light")'>monochrome-light</button>
+    <button class="ubuntu" onclick='switchTheme("ubuntu")'>ubuntu</button>
+    <button class="xterm" onclick='switchTheme("xterm")'>xterm</button>
+</div>
+	
+	<main>
+		<article>
+			<h1>Emoji Support</h1>
+			<time>5 March 2019 00:19 Tuesday</time>
+			<div>
+				<p>Emoji can be enabled in a Hugo project in a number of ways.</p>
+
+<p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
+
+<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site’s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
+
+<p><p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
+<br></p>
+
+<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
+
+<hr />
+
+<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html">.emoji {
+font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
+}</code></pre></div>
+			</div>
+
+			<div class="tags">
+					
+					<a class="tag" href="/gohugo-hacker/tags/emoji">emoji</a>
+				
+			</div>
+
+			
+		</article>
+	</main>
+<aside>
+	<div class="latest-posts">
+    <h3>latest posts</h3>
+    <ul  >
+        
+        <li><a href="/gohugo-hacker/2020/04/sample/">sample</a></li>
+        
+        <li><a href="/gohugo-hacker/2019/03/markdown-syntax-guide/">Markdown Syntax Guide</a></li>
+        
+        <li><a href="/gohugo-hacker/2019/03/rich-content/">Rich Content</a></li>
+        
+        <li><a href="/gohugo-hacker/2019/03/placeholder-text/">Placeholder Text</a></li>
+        
+        <li><a href="/gohugo-hacker/2019/03/math-typesetting/">Math Typesetting</a></li>
+        
+    </ul>
+</div>
+</aside>
+
+
+	
+</body>
+</html>

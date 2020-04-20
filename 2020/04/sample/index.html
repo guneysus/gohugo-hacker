@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>sample</title>
+	
+	
+	
+
+	
+	<link rel="stylesheet" href="https://guneysus.github.io/gohugo-hacker/css/layout.min.3e2518c3a432c0fde3a2974dc28bc53ad9ebf8af7aa3572ffb326054c46cdacf.css" id="layoutCss">
+
+	
+	
+	
+
+	<link rel="stylesheet" href="https://guneysus.github.io/gohugo-hacker/css/themes/alexpate-96.min.3099f3a779a3292483fc56c974bed06a897229ae3bcd8bb56e16c788aa7dc5d0.css" id="themeCss">
+
+	
+</head>
+<body>
+	<script>
+    var switchTheme = function (theme) {
+        document.getElementById('themeCss').href = `css/themes/${theme}.css?${+new Date()}`;
+    }
+</script>
+<div class="theme-switcher">
+    <button class="alexpate-15" class="alexpate-15" onclick='switchTheme("alexpate-15")'>alexpate-15</button>
+    <button class="alexpate-2" onclick='switchTheme("alexpate-2")'>alexpate-2</button>
+    <button class="alexpate-20" onclick='switchTheme("alexpate-20")'>alexpate-20</button>
+    <button class="alexpate-26" onclick='switchTheme("alexpate-26")'>alexpate-26</button>
+    <button class="alexpate-3" onclick='switchTheme("alexpate-3")'>alexpate-3</button>
+    <button class="alexpate-31" onclick='switchTheme("alexpate-31")'>alexpate-31</button>
+    <button class="alexpate-34" onclick='switchTheme("alexpate-34")'>alexpate-34</button>
+    <button class="alexpate-42" onclick='switchTheme("alexpate-42")'>alexpate-42</button>
+    <button class="alexpate-54" onclick='switchTheme("alexpate-54")'>alexpate-54</button>
+    <button class="alexpate-65" onclick='switchTheme("alexpate-65")'>alexpate-65</button>
+    <button class="alexpate-72" onclick='switchTheme("alexpate-72")'>alexpate-72</button>
+    <button class="alexpate-91" onclick='switchTheme("alexpate-91")'>alexpate-91</button>
+    <button class="alexpate-96" onclick='switchTheme("alexpate-96")'>alexpate-96</button>
+    <button class="default" onclick='switchTheme("default")'>default</button>
+    <button class="monochrome-dark" onclick='switchTheme("monochrome-dark")'>monochrome-dark</button>
+    <button class="monochrome-light" onclick='switchTheme("monochrome-light")'>monochrome-light</button>
+    <button class="ubuntu" onclick='switchTheme("ubuntu")'>ubuntu</button>
+    <button class="xterm" onclick='switchTheme("xterm")'>xterm</button>
+</div>
+	
+	<main>
+		<article>
+			<h1>sample</h1>
+			<time>1 April 2020 19:20 Wednesday</time>
+			<div>
+				
+
+<h2 id="nereden-gelir">nereden gelir</h2>
+
+<p>1500&rsquo;lerden beri kullanılmakta olan standard Lorem Ipsum metinleri ilgilenenler için yeniden üretilmiştir. Çiçero tarafından yazılan 1.10.32 ve 1.10.33 bölümleri de 1914 H. Rackham çevirisinden alınan İngilizce sürümleri eşliğinde özgün biçiminden yeniden üretilmiştir.</p>
+
+<h2 id="task-list">task list</h2>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> task1</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> task2</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> task3</label></li>
+</ul>
+
+<h2 id="smartypants">smartypants</h2>
+
+<ul>
+<li>&ldquo;double quote&rdquo;</li>
+<li>&lsquo;single quote&rsquo;</li>
+<li>smart dash single dash - Ahmed</li>
+<li>smart dash double dash &ndash; Ahmed</li>
+<li>smart dash triple dash &mdash; Ahmed</li>
+<li>fractions <sup>1</sup>&frasl;<sub>2</sub>, <sup>2</sup>&frasl;<sub>3</sub></li>
+</ul>
+
+<h3 id="syntax-hightlight">syntax hightlight</h3>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Get-ChildItem</span>  <span class="o">-File</span> <span class="n">-Recurse</span> <span class="p">*.</span><span class="n">sql</span> <span class="p">|</span> <span class="nb">Sort-Object</span> <span class="n">-Property</span> <span class="n">Length</span> <span class="n">-Descending</span> <span class="p">|</span> <span class="nb">Out-GridView</span></code></pre></div>
+<h3 id="no-deploy-on-saturdays">no deploy on saturdays</h3>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="k">if</span> <span class="p">(</span><span class="no">[Int]</span><span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="n">DayOfWeek</span> <span class="o">-eq</span> <span class="n">6</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">throw</span> <span class="s2">&#34;No deploy on Saturdays!&#34;</span><span class="p">;</span>  
+<span class="p">}</span>
+
+<span class="k">if</span> <span class="p">((</span><span class="nb">Get-Date</span><span class="p">).</span><span class="n">DayOfWeek</span> <span class="o">-eq</span> <span class="s1">&#39;Saturday&#39;</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">throw</span> <span class="s2">&#34;No deploy on Saturdays!&#34;</span><span class="p">;</span>  
+<span class="p">}</span></code></pre></div>
+<h3 id="c-reflection-with-powershell">C# Reflection with Powershell</h3>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">100</span><span class="p">.</span><span class="n">0</span> <span class="p">|</span> <span class="nb">Get-Member</span> <span class="n">-MemberType</span> <span class="n">Method</span></code></pre></div>
+<h2 id="footnotes">footnotes</h2>
+
+<p>This is a footnote.<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p>
+
+<h2 id="definition-lists">definition lists</h2>
+
+<dl>
+<dt>Cat</dt>
+<dd>Fluffy animal everyone likes</dd>
+<dt>Internet</dt>
+<dd>Vector of transmission for pictures of cats</dd>
+</dl>
+
+<hr />
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">the footnote text.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+			</div>
+
+			<div class="tags">
+					
+					<a class="tag" href="/gohugo-hacker/tags/lorem">lorem</a>
+					
+					<a class="tag" href="/gohugo-hacker/tags/ipsum">ipsum</a>
+					
+					<a class="tag" href="/gohugo-hacker/tags/di-amet">di amet</a>
+				
+			</div>
+
+			
+		</article>
+	</main>
+<aside>
+	<div class="latest-posts">
+    <h3>latest posts</h3>
+    <ul  >
+        
+        <li><a href="/gohugo-hacker/2020/04/sample/">sample</a></li>
+        
+        <li><a href="/gohugo-hacker/2019/03/markdown-syntax-guide/">Markdown Syntax Guide</a></li>
+        
+        <li><a href="/gohugo-hacker/2019/03/rich-content/">Rich Content</a></li>
+        
+        <li><a href="/gohugo-hacker/2019/03/placeholder-text/">Placeholder Text</a></li>
+        
+        <li><a href="/gohugo-hacker/2019/03/math-typesetting/">Math Typesetting</a></li>
+        
+    </ul>
+</div>
+</aside>
+
+
+	
+</body>
+</html>

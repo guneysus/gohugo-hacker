@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>di amet on ~/blog</title>
-    <link>/tags/di-amet/</link>
+    <link>https://guneysus.github.io/gohugo-hacker/tags/di-amet/</link>
     <description>Recent content in di amet on ~/blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Apr 2020 19:29:06 +0300</lastBuildDate>
     
-	<atom:link href="/tags/di-amet/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://guneysus.github.io/gohugo-hacker/tags/di-amet/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>about me</title>
-      <link>/2020/04/about-me/</link>
+      <title>sample</title>
+      <link>https://guneysus.github.io/gohugo-hacker/2020/04/sample/</link>
       <pubDate>Wed, 01 Apr 2020 19:29:06 +0300</pubDate>
       
-      <guid>/2020/04/about-me/</guid>
+      <guid>https://guneysus.github.io/gohugo-hacker/2020/04/sample/</guid>
       <description>&lt;strong&gt;Lorem Ipsum&lt;/strong&gt;, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Emphasis, aka italics, with &lt;em&gt;asterisks&lt;/em&gt; or &lt;em&gt;underscores&lt;/em&gt;.
 Strong emphasis, aka bold, with &lt;strong&gt;asterisks&lt;/strong&gt; or &lt;strong&gt;underscores&lt;/strong&gt;.
 Combined emphasis with &lt;strong&gt;asterisks and &lt;em&gt;underscores&lt;/em&gt;&lt;/strong&gt;.

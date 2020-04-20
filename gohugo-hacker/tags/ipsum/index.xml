@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ipsum on ~/blog</title>
+    <link>https://guneysus.github.io/gohugo-hacker/tags/ipsum/</link>
+    <description>Recent content in ipsum on ~/blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Apr 2020 19:29:06 +0300</lastBuildDate>
+    
+	<atom:link href="https://guneysus.github.io/gohugo-hacker/tags/ipsum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>about me</title>
+      <link>https://guneysus.github.io/gohugo-hacker/2020/04/about-me/</link>
+      <pubDate>Wed, 01 Apr 2020 19:29:06 +0300</pubDate>
+      
+      <guid>https://guneysus.github.io/gohugo-hacker/2020/04/about-me/</guid>
+      <description>&lt;strong&gt;Lorem Ipsum&lt;/strong&gt;, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Emphasis, aka italics, with &lt;em&gt;asterisks&lt;/em&gt; or &lt;em&gt;underscores&lt;/em&gt;.
+Strong emphasis, aka bold, with &lt;strong&gt;asterisks&lt;/strong&gt; or &lt;strong&gt;underscores&lt;/strong&gt;.
+Combined emphasis with &lt;strong&gt;asterisks and &lt;em&gt;underscores&lt;/em&gt;&lt;/strong&gt;.
+Strikethrough uses two tildes. &lt;del&gt;Scratch this.&lt;/del&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

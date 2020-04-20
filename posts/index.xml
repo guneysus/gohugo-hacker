@@ -2,25 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on ~/blog</title>
-    <link>/posts/</link>
+    <link>https://guneysus.github.io/gohugo-hacker/posts/</link>
     <description>Recent content in Posts on ~/blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Apr 2020 19:29:06 +0300</lastBuildDate>
     
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://guneysus.github.io/gohugo-hacker/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>about me</title>
-      <link>/2020/04/about-me/</link>
+      <title>sample</title>
+      <link>https://guneysus.github.io/gohugo-hacker/2020/04/sample/</link>
       <pubDate>Wed, 01 Apr 2020 19:29:06 +0300</pubDate>
       
-      <guid>/2020/04/about-me/</guid>
+      <guid>https://guneysus.github.io/gohugo-hacker/2020/04/sample/</guid>
       <description>&lt;strong&gt;Lorem Ipsum&lt;/strong&gt;, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Emphasis, aka italics, with &lt;em&gt;asterisks&lt;/em&gt; or &lt;em&gt;underscores&lt;/em&gt;.
 Strong emphasis, aka bold, with &lt;strong&gt;asterisks&lt;/strong&gt; or &lt;strong&gt;underscores&lt;/strong&gt;.
 Combined emphasis with &lt;strong&gt;asterisks and &lt;em&gt;underscores&lt;/em&gt;&lt;/strong&gt;.
 Strikethrough uses two tildes. &lt;del&gt;Scratch this.&lt;/del&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://guneysus.github.io/gohugo-hacker/2019/03/markdown-syntax-guide/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://guneysus.github.io/gohugo-hacker/2019/03/markdown-syntax-guide/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>https://guneysus.github.io/gohugo-hacker/2019/03/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://guneysus.github.io/gohugo-hacker/2019/03/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://guneysus.github.io/gohugo-hacker/2019/03/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://guneysus.github.io/gohugo-hacker/2019/03/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
+pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://guneysus.github.io/gohugo-hacker/2019/03/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://guneysus.github.io/gohugo-hacker/2019/03/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://guneysus.github.io/gohugo-hacker/2019/03/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://guneysus.github.io/gohugo-hacker/2019/03/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     
   </channel>
