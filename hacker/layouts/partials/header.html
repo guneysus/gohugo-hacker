@@ -1,1 +1,3 @@
-{{ partial "theme-switcher.html" . }}
+{{ if eq ($.Param "colorScheme") "default"}}
+  {{ partial "theme-switcher.html" . }}
+{{ end }}
