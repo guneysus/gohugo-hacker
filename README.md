@@ -41,6 +41,8 @@ And define a color scheme in params section
   # colorScheme = "alexpate-96"
 ```
 
+If no color scheme is set, the page will display a theme switcher in its header.
+
 ## Theme Previews
 
 ### alexpate-15 
