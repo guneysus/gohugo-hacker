@@ -11,9 +11,8 @@
 
     &:active {
         box-shadow: 0px 0px 0 gray;
-        // color: black;
         color: lighten($color: $fg, $amount: 0);
-        top: 3px;
+        transform: translateY(4px) translateX(4px);
       }    
 }
 
